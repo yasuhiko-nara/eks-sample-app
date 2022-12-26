@@ -10,4 +10,4 @@ replicas:
   name: deployment2
 images:
 - name: 210217920752.dkr.ecr.us-east-2.amazonaws.com/eks-sample-test-sample-app
-  newTag: f1ca09259de2ffdfb30440608157bca06177bb96
+  newTag: 288e92fdb1d5e268eb7c7c810a073f4f457ba482
