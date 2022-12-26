@@ -2,12 +2,12 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: staging
 resources:
-  - ../../base
+- ../../base
 replicas:
-  - count: 1
-    name: deployment1
-  - count: 1
-    name: deployment2
+- count: 1
+  name: deployment1
+- count: 1
+  name: deployment2
 images:
-  - name: 210217920752.dkr.ecr.us-east-2.amazonaws.com/eks-sample-test-sample-app
-    newTag: latest
+- name: 210217920752.dkr.ecr.us-east-2.amazonaws.com/eks-sample-test-sample-app
+  newTag: f1ca09259de2ffdfb30440608157bca06177bb96
