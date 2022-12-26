@@ -4,7 +4,10 @@ namespace: staging
 resources:
   - ../../base
 replicas:
-  - name: deployment1
-    count: 1
-  - name: deployment2
-    count: 1
+  - count: 1
+    name: deployment1
+  - count: 1
+    name: deployment2
+images:
+  - name: 210217920752.dkr.ecr.us-east-2.amazonaws.com/eks-sample-test-sample-app
+    newTag: latest
